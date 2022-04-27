@@ -6,6 +6,7 @@ export const challenges: Challenge[] = [
     title: 'Coin Change',
     difficulty: 'hard',
     leetCodeLink: 'https://leetcode.com/problems/coin-change/',
+    categories: ['dynamic programming'],
     createAt: new Date('2022-04-27'),
     updateAt: new Date('2022-04-27'),
     reviewAt: new Date('2022-04-27'),
@@ -13,7 +14,7 @@ export const challenges: Challenge[] = [
   {
     id: 322,
     title: 'Coin Change',
-    difficulty: 'hard',
+    difficulty: 'medium',
     leetCodeLink: 'https://leetcode.com/problems/coin-change/',
     createAt: new Date('2022-04-27'),
     updateAt: new Date('2022-04-27'),
@@ -22,7 +23,7 @@ export const challenges: Challenge[] = [
   {
     id: 322,
     title: 'Coin Change',
-    difficulty: 'hard',
+    difficulty: 'easy',
     leetCodeLink: 'https://leetcode.com/problems/coin-change/',
     createAt: new Date('2022-04-27'),
     updateAt: new Date('2022-04-27'),

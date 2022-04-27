@@ -19,7 +19,7 @@
       "@type/*": ["lib/types/*"],
       "@context/*": ["lib/contexts/*"],
       "@mock/*": ["mock/*"],
-      "@components/*": ["components/*"],
+      "@component/*": ["components/*"],
       "@styles/*": ["styles/*"],
       "@lib/*": ["lib/*"]
     }
