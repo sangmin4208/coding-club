@@ -12,12 +12,13 @@ import {
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBX5gkKsbOr1V0zxBuSqHWFct12dFOsQHA',
-  authDomain: 'nextfire-demo.firebaseapp.com',
-  projectId: 'nextfire-demo',
-  storageBucket: 'nextfire-demo.appspot.com',
-  messagingSenderId: '827402452263',
-  appId: '1:827402452263:web:c9a4bea701665ddf15fd02',
+  apiKey: 'AIzaSyBBQl7TTZ-_mbxAtXCIuMF1KQwJv0RcouM',
+  authDomain: 'coding-club-55e03.firebaseapp.com',
+  projectId: 'coding-club-55e03',
+  storageBucket: 'coding-club-55e03.appspot.com',
+  messagingSenderId: '1052492589000',
+  appId: '1:1052492589000:web:7867ce5d6c4d042647c2fd',
+  measurementId: 'G-QFPF72QXL6',
 }
 
 function createFirebaseApp(config: FirebaseOptions) {
