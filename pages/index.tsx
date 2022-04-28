@@ -2,8 +2,9 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ChallengeContext } from '@context/challenge'
 import { useContext } from 'react'
-import ReviewList from '@component/challenge/ReviewList'
 import Intro from '@component/challenge/Intro'
+import ChallengeList from '@component/challenge/ChallengeList'
+import ChallengeItem from '@component/challenge/ChallengeItem'
 
 const Home: NextPage = () => {
   const { challenges } = useContext(ChallengeContext)
@@ -14,7 +15,18 @@ const Home: NextPage = () => {
       </Head>
       <div className="flex gap-2 ">
         <Intro />
-        <ReviewList className='flex-1' challenges={challenges} />
+        <ChallengeList className='flex-1 p-5' title="리뷰 예정 문제">
+          <ul>
+            {challenges.map(item => <ChallengeItem key={item.id} challenge={item} />)}
+          </ul>
+        </ChallengeList>
+      </div>
+      <div>
+        <ChallengeList className='flex-1 p-5' title="지난 문제">
+          <ul>
+            {challenges.map(item => <ChallengeItem key={item.id} challenge={item} />)}
+          </ul>
+        </ChallengeList>
       </div>
     </>
   )
