@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { useAuthState } from 'react-firebase-hooks/auth'
 const Header = () => {
   const [user] = useAuthState(auth)
-
   return <header className="flex justify-between py-5">
     <h1 className='text-xl'>
       <Link href="/" passHref>

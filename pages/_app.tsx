@@ -1,8 +1,8 @@
 import type { AppProps } from 'next/app'
 import Header from '@component/layout/Header'
 import Footer from '@component/layout/Footer'
-import "@styles/globals.css"
 import ChallengeProvider from '@context/challenge'
+import "@styles/globals.css"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
